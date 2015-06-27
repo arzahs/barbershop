@@ -1,0 +1,94 @@
+body{
+  min-width: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header{
+  padding: 5px 0;
+}
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.container{
+  width: 660px;
+  margin:0 auto;
+  /*min-height: 20px;*/
+  padding: 5px;
+}
+.main-navigation{
+  float: left;
+  width:520px;
+  min-height: 20px;
+}
+
+.user-block{
+  float: right;
+  width: 90px;
+  min-height: 50px;
+}
+
+.main-container{
+  margin: 30 auto;
+}
+
+.logo{
+  width: 270px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+.features-row{
+  margin-bottom: 35px;
+  padding: 5px;
+}
+.features-item{
+  float:left;
+  margin-right:24px;
+  width:195px;
+  min-height: 150px;
+}
+.features-item:last-child{
+  margin-right: 0;
+}
+.index-content{
+  margin-bottom: 20px;
+  padding: 35px 40px;
+}
+.index-content:last-child{
+  /*margin-bottom: 0;*/
+}
+.content-column-left, .content-column-right{
+  width:250px;
+}
+.content-column-left{
+  float:left;
+}
+.content-column-right{
+  float:right;
+}
+
+.main-footer{
+  padding: 20px 0;
+}
+
+.footer-contacts{
+  float: left;
+  width: 220px;
+  margin-right: 35px
+}
+
+.footer-social{
+ float:left;
+ width: 140px;
+}
+
+.footer-copyright{
+float: right;
+width: 220px;
+}
+
+
+
