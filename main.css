@@ -1,11 +1,17 @@
 body{
-  min-width: 800px;
-  margin: 0;
-  padding: 0;
+  min-width: 940px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background: #141414 url("img/body-bg.jpg") no-repeat center top;
 }
 
 .main-header{
-  padding: 5px 0;
+  /*padding: 5px 0;*/
+  margin-bottom: 60px;
+  background: #000;
 }
 .clearfix:after{
   content: '';
@@ -13,23 +19,67 @@ body{
   clear: both;
 }
 .container{
-  width: 660px;
+  width: 940px;
   margin:0 auto;
   /*min-height: 20px;*/
-  padding: 5px;
+  padding: 0 10px;
 }
 .main-navigation{
   float: left;
-  width:520px;
-  min-height: 20px;
+  width:780px;
+ border: 1px dotted #fff;
 }
 
 .user-block{
   float: right;
-  width: 90px;
-  min-height: 50px;
+  border: 1px dotted #fff;
+  max-width: 140px;
 }
 
+.main-navigation ul {
+  margin:0;
+  padding: 0;
+  list-style:none;
+}
+
+.main-navigation li{
+display: inline-block;
+font-size: 16px;
+line-height: 20px;
+vertical-align: top;
+}
+
+.main-navigation a{
+  display: block;
+  padding: 25px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.main-navigation a:hover{
+  background: #242424;
+}
+.main-navigation .active a{
+  position: relative;
+}
+.main-navigation .active a:hover{
+  background: none;
+}
+.main-navigation .active a:after{
+  content:"";
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  left: 20px;
+  
+  height: 5px;
+  background: white;
+
+}
+.login{
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 20px;
+}
 .main-container{
   margin: 30 auto;
 }
